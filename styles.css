@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Yellowtail&display=swap');
+
+body {
+  font-family: Roboto;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+}
+
+/*---------------------------- 
+        Logo and Menu
+---------------------------- */
+
+.main-header {
+  background-color: #66b6d2;
+  height: 95px;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.logo, .navbar {
+  display: inline;
+  font-size: 1.5rem;
+}
+
+.logo {
+  font-family: Yellowtail;
+}
+
+.navbar {
+  padding-left: 140px;
+}
+
+.menu {
+  padding-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+/*---------------------------- 
+      End Logo and Menu
+---------------------------- */
+
+/*---------------------------- 
+    Content and Section
+---------------------------- */
+
+h3 {
+  margin: 0;
+}
+
+section {
+  padding: 6% 10%;
+}
+
+.about-content {
+  background-color: #7cc0d8;
+}
+
+.work-content {
+  background-color: #92cbdf;
+}
+
+.resume-content {
+  background-color: #a8d5e5;
+}
+
+.contact-content {
+  background-color: #bee0ec;
+}
+
+/*-------About inner section----- */
+
+article, .profile {
+  display: inline-block;
+}
+
+article {
+  width: 470px;
+  float: left;  
+}
+
+.profession {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.profile {
+  margin-left: 15%;
+}
+
+.about-content img {
+  box-shadow: 10px 5px 5px #3ba1c5;
+}
+
+/*-------Work inner section----- */
+
+.work-item {
+  display: inline-block;
+  font-size: 1.1rem;
+  width: 320px;
+  height: 240px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/*-------Resume inner section----- */
+
+.resume-content div {
+  display: inline-block;
+}
+
+.resume-right {
+  float: left;
+  width: 600px;
+  font-size: 1.2rem;
+}
+
+.resume-left {
+  font-size: 1rem;
+  padding-left: 100px;
+}
+
+/*-------Contact inner section----- */
+
+.contact-inner-content {
+  padding-left: 180px;
+}
+
+.message-part {
+  padding-left: 100px;
+}
+
+.form-message {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.item1, .item2 {
+  display: inline-block;
+}
+
+.item1 {
+  float: left;
+  margin-right: 30px;
+}
+
+label {
+  font-size: 30px;
+}
+
+.form-item {
+  margin-bottom: 30px;
+}
+
+input {
+  display: inline;
+}
+
+input, textarea {
+  background-color: #d3eaf2;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+input {
+  width: 300px;
+}
+
+textarea {
+  width: 630px;
+}
+
+input:valid, textarea:valid {
+  border-bottom-color: green;
+}
+
+input:invalid, textarea:invalid {
+  border-bottom-color: red;
+}
+
+input:click, textarea:click {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input::placeholder, textarea::placeholder {
+  font-family: Roboto;
+  padding-left: 5px;
+}
+
+button {
+  border: 0;
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  margin-left: 210px;
+  cursor: pointer;
+}
+
+/*---------------------------- 
+    End Content and Section
+---------------------------- */
+
+/*---------------------------- 
+    Footer Content
+---------------------------- */
+footer {
+  background-color: #d3eaf2;
+  height: 130px;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.socials a {
+  padding-left: 15px;
+}
+/*---------------------------- 
+    End Footer Content
+---------------------------- */
